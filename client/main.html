@@ -1,0 +1,29 @@
+<head>
+    <title>Sistema Delivery</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Taskie</a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    {{> loginButtons}}
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+      {{#if currentUser}}
+          {{>novoproduto}}
+          {{>produto}}
+      {{else}}
+        Você deve se logar primeiro.
+        {{ currentUser}}
+      {{/if}}
+    </main>
+
+</body>
