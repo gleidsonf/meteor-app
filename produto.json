@@ -1,0 +1,32 @@
+{
+    "produtos": [
+        {
+            "nome": "Abacaxi",
+            "preco": "R$ 1,50"
+        },
+        {
+            "nome": "Morango",
+            "preco": "R$ 1,80"
+        },
+        {
+            "nome": "Nutela",
+            "preco": "R$ 1,50"
+        },
+        {
+            "nome": "Floreta Negra",
+            "preco": "R$ 2,00"
+        },
+        {
+            "nome": "Milho",
+            "preco": "R$ 1,25"
+        },
+        {
+            "nome": "Maçã",
+            "preco": "R$ 2,35"
+        },
+        {
+            "nome": "Cenoura",
+            "preco": "R$ 2,30"
+        }
+]
+}
